@@ -25,7 +25,7 @@
         <img id="alpr-mobile-card"  src="assets/images/alpr-mobile-card.png">
         <img id="biometric-card" src="assets/images/biometric-card.png">
         <img id="bodycam-card" src="assets/images/bodycam-card.png">
-        <img id="counter-bg" src="assets/images/resized-binoculars-power-of-2.png">
+        <img id="counter-bg" src="assets/images/binoculars.png">
         <img id="camera-card" src="assets/images/camera-card.png">
         <img id="congrats-card" src="assets/images/congrats-card-replay.png">
         <img id="drone-card"  src="assets/images/drone-card.png">
@@ -160,10 +160,10 @@
   </a-entity>
 
   <!-- false positives, initially position under the exit -->
-  <a-sphere id="bird-hotspot"  data-clickable  mixin="see-through" event-set__enter="_event: mouseenter; _target: #bird-popup; visible: true; material.visible: true" geometry="height:3; width: 3" position="47.468 -340.523 10.223" rotation="110 0 0" >
+  <a-sphere id="bird-hotspot"  data-clickable  mixin="see-through" event-set__enter="_event: mouseenter; _target: #bird-popup; visible: true; material.visible: true" position="47.468 -340.523 10.223" rotation="110 0 0" >
   </a-sphere>
 
-  <a-sphere id="light-hotspot" data-clickable  mixin="see-through"   event-set__enter="_event: mouseenter; _target: #light-popup; visible: true; material.visible: true" geometry="height:2; width: 2;" position="47.468 -340.523 10.223" rotation= "0 40 0" scale="2 2 2">
+  <a-sphere id="light-hotspot" data-clickable  mixin="see-through" event-set__enter="_event: mouseenter; _target: #light-popup; visible: true; material.visible: true" position="47.468 -340.523 10.223" rotation= "0 40 0" scale="2 2 2">
   </a-sphere>
 
   <!-- all the popups -->
